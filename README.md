@@ -1,5 +1,25 @@
-# Vue 3 + Vite
+## Todo List - Vue 3
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+🔗 Live: (https://parinyaporn03.github.io/todolist-vue/)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+### 🎯 จุดประสงค์ของโปรเจกต์
+* ฝึกการใช้ Vue 3 Composition API เช่น ref, watch, defineProps, defineEmits
+* เรียนรู้การแยก Component และส่งข้อมูลระหว่าง Parent-Child
+* ใช้งาน PrimeVue เพื่อสร้าง UI ที่ดูดีและมีฟังก์ชันพื้นฐานพร้อมใช้
+* ฝึกใช้ UUID สร้าง id ที่ไม่ซ้ำกันในแต่ละ Task
+* ฝึกใช้ v-model, v-for, v-if, และการจัดการ Event
+
+### ⚙️ ฟีเจอร์ของแอป
+* เพิ่มงานใหม
+* ทำเครื่องหมายว่างานเสร็จแล้ว
+* แก้ไขชื่อของงาน
+* ลบรายการงานโดยมีการยืนยัน
+* UI สวยงามด้วย PrimeVue + Tailwind CSS
+
+### 🧩 เทคโนโลยีที่ใช้
+* Vue 3
+* PrimeVue
+* Tailwind CSS
+* UUID
+* Vite
+
